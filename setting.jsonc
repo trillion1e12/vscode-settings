@@ -1,0 +1,111 @@
+{
+  // general
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Light+",
+  "workbench.preferredDarkColorTheme": "Dark+",
+  "workbench.experimental.modernUI": false,
+  "terminal.integrated.initialHint": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "files.autoSave": "afterDelay",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.fontFamily": "Cascadia Mono",
+  "editor.formatOnSave": true,
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+  },
+  "editor.minimap.enabled": false,
+  "chat.disableAIFeatures": true,
+
+  // json/jsonc/yaml
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+
+  // javascript/typescript
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  // "js/ts.preferences.importModuleSpecifier": "relative", // depend
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.tabSize": 2,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.tabSize": 2,
+  },
+
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+    },
+  },
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.autoImportCompletions": true,
+
+  // java
+  "redhat.telemetry.enabled": false,
+  "[java]": {
+    "spotlessGradle.format.enable": true,
+    "spotlessGradle.diagnostics.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.spotlessGradle": "explicit",
+    },
+    "editor.defaultFormatter": "richardwillis.vscode-spotless-gradle",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+  },
+
+  // c++
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+  },
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_fallbackStyle": "Microsoft",
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.fallbackConfig": "{Checks: '-*,clang-analyzer-*'}",
+
+  // latex
+  "latex-workshop.formatting.latex": "latexindent",
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+  },
+}
