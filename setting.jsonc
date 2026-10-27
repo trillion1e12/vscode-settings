@@ -108,7 +108,4 @@
   "[latex]": {
     "editor.defaultFormatter": "James-Yu.latex-workshop",
   },
-
-  // markdown
-  "markdown.preview.fontSize": 16,
 }
